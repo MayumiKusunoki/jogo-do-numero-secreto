@@ -1,5 +1,5 @@
 alert('Boas vindas ao jogo do número secreto');
-let numeroMaximo = 2;
+let numeroMaximo = 100;
 //Math.random() gera numeros entre 0 e 1, exemplo 0.48, por isso adicionamos 1 para não ter número 0.1 e sim o 1.1 e depois transformamos para inteiro (parseInt())
 let numeroSecreto = parseInt(Math.random() * numeroMaximo + 1);
 console.log(numeroSecreto);
